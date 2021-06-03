@@ -82,8 +82,7 @@ p {
 }
 
 * {
-  font-family: 'Roboto',
- sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--black);
   max-width: 1600px;
 }
@@ -873,6 +872,7 @@ img {
 
 .navigation__logo .navigation__logo--accent {
   color: var(--blue);
+  font-family: Raleway;
 }
 
 .menu__list:not(:last-child) {
@@ -922,7 +922,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .mail {
-    margin-left: 350px;
+    margin-left: 300px;
     margin-right: 30px;
   }
 }
@@ -1343,6 +1343,7 @@ img {
 
 .footer__logo .blue-color {
   color: var(--blue);
+  font-family: Raleway;
 }
 
 .footer__link {
@@ -1494,7 +1495,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white);
-  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1564,7 +1564,6 @@ img {
 @media screen and (min-width: 1200px) {
   .footer__input-mail {
     width: 358px;
-    
   }
 }
 
