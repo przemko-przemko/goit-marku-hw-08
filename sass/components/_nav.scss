@@ -11,3 +11,9 @@
 .header{
     position: relative;
 }
+.header .container{
+    @media screen and (max-width: 1200px) {
+        margin-left: 15px;
+
+    }
+}

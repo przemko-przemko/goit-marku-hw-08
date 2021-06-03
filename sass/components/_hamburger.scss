@@ -2,7 +2,10 @@
     position: absolute;
     right: 15px;
     top: 10px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 3em;
     height: 3em;
     cursor: pointer;

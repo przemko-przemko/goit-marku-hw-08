@@ -53,8 +53,8 @@
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 }
-.project{
-    padding-bottom: 30px;;
+.project__list-item{
+    margin-bottom: 30px;
 }
 
 .project:nth-child(-n + 6) {

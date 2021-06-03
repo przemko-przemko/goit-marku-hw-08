@@ -6,19 +6,23 @@
     background-color: var(--gray);
     color: var(--white);
     padding-top:60px;
+    padding-bottom:60px;
     margin:0 auto;
-@media screen and (max-width: 1200px){
-    
-}
+
+    @media screen and(min-width:768px) and (max-width:1200px) {
+        padding: 0 ;
+        
+    }
 }
 .footer__container{
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+    justify-content: space-between;
     
 }
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (max-width: 767px){
     display:flex;
     flex-direction: column;
 
